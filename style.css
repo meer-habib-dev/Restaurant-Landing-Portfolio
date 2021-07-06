@@ -3,8 +3,11 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-section {
-  padding: 100px 0px;
+.top-padding {
+  padding-top: 50px;
+}
+.bottom-padding {
+  padding-bottom: 50px;
 }
 #container {
   width: 85%;
@@ -12,28 +15,24 @@ section {
 }
 p,
 h1 {
-  color: #828282;
+  color: #575757;
 }
 /*Header styling start*/
 a {
   text-decoration: none;
 }
-
-.navbar {
-  background-color: #333333;
-}
 .navBarContents {
-  width: 80%;
+  width: 85%;
   display: flex;
   margin: auto;
   align-items: center;
 }
 .navbar a {
-  color: #e7e7e7;
   float: right;
 }
 .navbarItems {
   margin-left: auto;
+  padding-right: 50px;
 }
 .navbar ul {
   margin: 0;
@@ -42,24 +41,30 @@ a {
   display: flex;
   align-items: right;
 }
-
-.navbar .brand {
+.navbarLogo a {
+  color: #fe4c2f;
   display: block;
-  color: #e7e7e7;
-  padding: 0 24px;
-  font-size: 24px;
+  padding: 10px 24px;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 0;
 }
-
+.brand {
+  background: linear-gradient(to right, #fb974b, #fe4c2f, #cf23cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .navbar ul li a {
-  color: #e7e7e7;
-  padding: 24px;
+  color: #fd5332;
+  padding: 20px;
   display: block;
 }
 
 .navbar ul a:hover,
 .navbar ul a:focus,
 .navbar ul .active {
-  background-color: #272727;
+  background-color: tomato;
+  color: white;
 }
 
 /*Header styling start*/
@@ -70,16 +75,19 @@ a {
   align-items: center;
 }
 .Profile-heading {
-  font-size: 70px;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 .Profile-info p {
-  font-size: 22px;
+  font-size: 12px;
+  margin-bottom: 50px;
 }
 .portfo-btn {
   color: white;
   padding: 20px 40px;
   border-radius: 50px;
-  background-image: linear-gradient(#fb974b, #fe492e);
+  background-image: linear-gradient(#fb974b, #fe4c2f);
 }
 .HomeImg img {
   width: 80%;
@@ -93,19 +101,36 @@ a {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 330px;
 }
-.adout-items {
+.about-items {
   display: flex;
   margin: auto;
 }
+.About-img {
+  width: 50%;
+}
 .About-img img {
-  width: 40%;
-  margin: auto;
+  width: 50%;
+  padding-left: 130px;
+  /* margin-bottom: -30px !important; */
+  padding-top: 17px;
 }
 .about-des {
-  width: 40%;
+  width: 30%;
+  margin-left: 35px;
 }
-
+.about-des p {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.contact-btn {
+  font-size: 16px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-image: linear-gradient(#fb974b, #fe4c2f);
+}
 /*About Us Section End*/
 
 /*Receipe styling start*/
@@ -147,6 +172,7 @@ a {
   text-align: center;
 }
 /*Socal media Ends*/
+
 /*Contact us start*/
 ul,
 li {
@@ -171,7 +197,6 @@ button {
 
 .contact1 {
   width: 100%;
-  min-height: 100%;
   padding: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -188,11 +213,9 @@ button {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 90px 130px 88px 148px;
+  padding: 0px 130px 0px 148px;
 }
 
-/*------------------------------------------------------------------
-[  ]*/
 .contact1-pic {
   width: 296px;
 }
@@ -201,8 +224,6 @@ button {
   max-width: 100%;
 }
 
-/*------------------------------------------------------------------
-[  ]*/
 .contact1-form {
   width: 390px;
 }
@@ -264,8 +285,6 @@ textarea.input1 + .shadow-input1 {
   box-shadow: 0px 0px 0px 0px;
   color: rgba(87, 184, 70, 0.5);
 }
-
-/*---------------------------------------------*/
 .container-contact1-form-btn {
   display: flex;
   flex-wrap: wrap;
