@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .top-padding {
   padding-top: 50px;
@@ -111,7 +111,7 @@ a {
   width: 50%;
 }
 .About-img img {
-  width: 50%;
+  width: 40%;
   padding-left: 130px;
   /* margin-bottom: -30px !important; */
   padding-top: 17px;
@@ -119,9 +119,10 @@ a {
 .about-des {
   width: 30%;
   margin-left: 35px;
+  margin-top: 50px;
 }
 .about-des p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 .contact-btn {
@@ -152,7 +153,12 @@ a {
   border-radius: 20px;
   text-align: center;
   margin: 0px 40px;
+  font-size: 14px;
 }
+.meun-one h1 {
+  color: #0b0d17;
+}
+
 .menu-img {
   width: 100%;
   margin: auto;
@@ -170,6 +176,17 @@ a {
 .meidias {
   width: 100%;
   text-align: center;
+}
+
+.meidias p {
+  margin-top: 3px;
+  font-size: 15px;
+}
+.meidias h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #272626;
+  font-weight: 900;
 }
 /*Socal media Ends*/
 
@@ -312,6 +329,11 @@ textarea.input1 + .shadow-input1 {
 footer {
   height: 200px;
   background-color: #0b0d17;
-  text-align: center;
 }
+.footer-items {
+  text-align: center;
+  /* align-items: center; */
+  padding-top: 42px;
+}
+
 /*Footer End*/
