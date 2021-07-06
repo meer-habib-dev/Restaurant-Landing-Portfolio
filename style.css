@@ -1,39 +1,50 @@
+/*Global styling start*/
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 .top-padding {
   padding-top: 50px;
 }
+
 .bottom-padding {
   padding-bottom: 50px;
 }
+
 #container {
   width: 85%;
   margin: auto;
 }
+
 p,
 h1 {
   color: #575757;
 }
+/*Global styling end*/
+
 /*Header styling start*/
 a {
   text-decoration: none;
 }
+
 .navBarContents {
   width: 85%;
   display: flex;
   margin: auto;
   align-items: center;
 }
+
 .navbar a {
   float: right;
 }
+
 .navbarItems {
   margin-left: auto;
   padding-right: 50px;
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -41,6 +52,7 @@ a {
   display: flex;
   align-items: right;
 }
+
 .navbarLogo a {
   color: #fe4c2f;
   display: block;
@@ -49,15 +61,18 @@ a {
   font-weight: 900;
   padding: 0;
 }
+
 .brand {
   background: linear-gradient(to right, #fb974b, #fe4c2f, #cf23cf);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .navbar ul li a {
   color: #fd5332;
   padding: 20px;
   display: block;
+  font-weight: 600;
 }
 
 .navbar ul a:hover,
@@ -66,7 +81,6 @@ a {
   background-color: tomato;
   color: white;
 }
-
 /*Header styling start*/
 
 /*Home Section Start*/
@@ -74,21 +88,25 @@ a {
   display: flex;
   align-items: center;
 }
+
 .Profile-heading {
   font-size: 35px;
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
 .Profile-info p {
   font-size: 12px;
   margin-bottom: 50px;
 }
+
 .portfo-btn {
   color: white;
   padding: 20px 40px;
   border-radius: 50px;
-  background-image: linear-gradient(#fb974b, #fe4c2f);
+  background-image: linear-gradient(90deg, #fb974b, #fe4c2f);
 }
+
 .HomeImg img {
   width: 80%;
   float: right;
@@ -96,46 +114,49 @@ a {
 /*Home Section End*/
 
 /*About us Section Start*/
-
 .about-sectio-bg {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 330px;
 }
+
 .about-items {
   display: flex;
   margin: auto;
 }
+
 .About-img {
   width: 50%;
 }
+
 .About-img img {
   width: 40%;
   padding-left: 130px;
-  /* margin-bottom: -30px !important; */
   padding-top: 17px;
 }
+
 .about-des {
   width: 30%;
   margin-left: 35px;
   margin-top: 50px;
 }
+
 .about-des p {
   font-size: 14px;
   margin-bottom: 40px;
 }
+
 .contact-btn {
   font-size: 16px;
   color: white;
   padding: 10px 20px;
   border-radius: 50px;
-  background-image: linear-gradient(#fb974b, #fe4c2f);
+  background-image: linear-gradient(90deg, #fb974b, #fe4c2f);
 }
 /*About Us Section End*/
 
 /*Receipe styling start*/
-
 .receipe-info {
   width: 40%;
   margin: auto;
@@ -146,6 +167,7 @@ a {
   display: flex;
   margin-top: 100px;
 }
+
 .meun-one {
   width: 25%;
   padding: 10px;
@@ -155,6 +177,7 @@ a {
   margin: 0px 40px;
   font-size: 14px;
 }
+
 .meun-one h1 {
   color: #0b0d17;
 }
@@ -173,6 +196,7 @@ a {
   height: 200px;
   align-items: center;
 }
+
 .meidias {
   width: 100%;
   text-align: center;
@@ -182,6 +206,7 @@ a {
   margin-top: 3px;
   font-size: 15px;
 }
+
 .meidias h1 {
   font-size: 30px;
   margin-bottom: 0px;
@@ -196,6 +221,7 @@ li {
   margin: 0px;
   list-style-type: none;
 }
+
 input {
   outline: none;
   border: none;
@@ -260,6 +286,7 @@ input.input1 {
   border-radius: 25px;
   padding: 0 30px;
 }
+
 input.input1 + .shadow-input1 {
   border-radius: 25px;
 }
@@ -269,6 +296,7 @@ textarea.input1 {
   border-radius: 25px;
   padding: 12px 30px;
 }
+
 textarea.input1 + .shadow-input1 {
   border-radius: 25px;
 }
@@ -302,6 +330,7 @@ textarea.input1 + .shadow-input1 {
   box-shadow: 0px 0px 0px 0px;
   color: rgba(87, 184, 70, 0.5);
 }
+
 .container-contact1-form-btn {
   display: flex;
   flex-wrap: wrap;
@@ -312,7 +341,6 @@ textarea.input1 + .shadow-input1 {
   min-width: 193px;
   height: 50px;
   border-radius: 25px;
-  background: #57b846;
   font-family: Montserrat-Bold;
   font-size: 15px;
   line-height: 1.5;
@@ -321,8 +349,8 @@ textarea.input1 + .shadow-input1 {
   justify-content: center;
   align-items: center;
   padding: 0 25px;
+  background-image: linear-gradient(90deg, #57b846, green);
 }
-
 /*Contact us end*/
 
 /*Footer Start*/
@@ -330,10 +358,9 @@ footer {
   height: 200px;
   background-color: #0b0d17;
 }
+
 .footer-items {
   text-align: center;
-  /* align-items: center; */
   padding-top: 42px;
 }
-
 /*Footer End*/
